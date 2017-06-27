@@ -1,0 +1,1258 @@
+{
+  "all_cities": {
+    "a": [
+      {
+        "city_id": "259",
+        "city_id_movie": 296,
+        "city_name": "安顺市",
+        "city_name_en": "An Shun Shi ",
+        "city_name_movie": "安顺",
+        "is_hot": "0",
+        "province_id": "24",
+        "sort_order": 0,
+        "zip_code": "561000"
+      }
+    ],
+    "b": [
+      {
+        "city_id": "1",
+        "city_id_movie": 10,
+        "city_name": "北京市",
+        "city_name_en": "Bei Jing Shi ",
+        "city_name_movie": "北京",
+        "is_hot": "1",
+        "province_id": "1",
+        "sort_order": "1",
+        "zip_code": "100000"
+      },
+      {
+        "city_id": "26",
+        "city_id_movie": 35,
+        "city_name": "包头市",
+        "city_name_en": "Bao Tou Shi ",
+        "city_name_movie": "包头",
+        "is_hot": "0",
+        "province_id": "5",
+        "sort_order": 0,
+        "zip_code": "014000"
+      },
+      {
+        "city_id": "32",
+        "city_id_movie": 44,
+        "city_name": "巴彦淖尔市",
+        "city_name_en": "Ba Yan Nao Er Shi ",
+        "city_name_movie": "巴彦淖尔",
+        "is_hot": "0",
+        "province_id": "5",
+        "sort_order": 0,
+        "zip_code": "014400"
+      },
+      {
+        "city_id": "100",
+        "city_id_movie": 118,
+        "city_name": "蚌埠市",
+        "city_name_en": "Bang Bu Shi ",
+        "city_name_movie": "蚌埠",
+        "is_hot": "0",
+        "province_id": "12",
+        "sort_order": 0,
+        "zip_code": "233000"
+      },
+      {
+        "city_id": "268",
+        "city_id_movie": 308,
+        "city_name": "保山市",
+        "city_name_en": "Bao Shan Shi ",
+        "city_name_movie": "保山",
+        "is_hot": "0",
+        "province_id": "25",
+        "sort_order": 0,
+        "zip_code": "678000"
+      }
+    ],
+    "c": [
+      {
+        "city_id": "17",
+        "city_id_movie": 28,
+        "city_name": "长治市",
+        "city_name_en": "Chang Zhi Shi ",
+        "city_name_movie": "长治",
+        "is_hot": "0",
+        "province_id": "4",
+        "sort_order": 0,
+        "zip_code": "046000"
+      },
+      {
+        "city_id": "28",
+        "city_id_movie": 40,
+        "city_name": "赤峰市",
+        "city_name_en": "Chi Feng Shi ",
+        "city_name_movie": "赤峰",
+        "is_hot": "0",
+        "province_id": "5",
+        "sort_order": 0,
+        "zip_code": "024000"
+      },
+      {
+        "city_id": "77",
+        "city_id_movie": 90,
+        "city_name": "常州市",
+        "city_name_en": "Chang Zhou Shi ",
+        "city_name_movie": "常州",
+        "is_hot": "0",
+        "province_id": "10",
+        "sort_order": 0,
+        "zip_code": "213000"
+      },
+      {
+        "city_id": "183",
+        "city_id_movie": 196,
+        "city_name": "长沙市",
+        "city_name_en": "Chang Sha Shi ",
+        "city_name_movie": "长沙",
+        "is_hot": "0",
+        "province_id": "18",
+        "sort_order": 0,
+        "zip_code": "410000"
+      },
+      {
+        "city_id": "192",
+        "city_id_movie": 197,
+        "city_name": "郴州市",
+        "city_name_en": "Chen Zhou Shi ",
+        "city_name_movie": "郴州",
+        "is_hot": "0",
+        "province_id": "18",
+        "sort_order": 0,
+        "zip_code": "423000"
+      },
+      {
+        "city_id": "234",
+        "city_id_movie": 266,
+        "city_name": "重庆市",
+        "city_name_en": "Chong Qing Shi ",
+        "city_name_movie": "重庆",
+        "is_hot": "0",
+        "province_id": "22",
+        "sort_order": 0,
+        "zip_code": "400000"
+      },
+      {
+        "city_id": "235",
+        "city_id_movie": 267,
+        "city_name": "成都市",
+        "city_name_en": "Cheng Du Shi ",
+        "city_name_movie": "成都",
+        "is_hot": "1",
+        "province_id": "23",
+        "sort_order": "4",
+        "zip_code": "610000"
+      }
+    ],
+    "d": [
+      {
+        "city_id": "15",
+        "city_id_movie": 26,
+        "city_name": "大同市",
+        "city_name_en": "Da Tong Shi ",
+        "city_name_movie": "大同",
+        "is_hot": "0",
+        "province_id": "4",
+        "sort_order": 0,
+        "zip_code": "037000"
+      },
+      {
+        "city_id": "38",
+        "city_id_movie": 52,
+        "city_name": "大连市",
+        "city_name_en": "Da Lian Shi ",
+        "city_name_movie": "大连",
+        "is_hot": "1",
+        "province_id": "6",
+        "sort_order": "11",
+        "zip_code": "116000"
+      },
+      {
+        "city_id": "65",
+        "city_id_movie": 78,
+        "city_name": "大庆市",
+        "city_name_en": "Da Qing Shi ",
+        "city_name_movie": "大庆",
+        "is_hot": "0",
+        "province_id": "8",
+        "sort_order": 0,
+        "zip_code": "163000"
+      },
+      {
+        "city_id": "148",
+        "city_id_movie": 149,
+        "city_name": "德州市",
+        "city_name_en": "De Zhou Shi ",
+        "city_name_movie": "德州",
+        "is_hot": "0",
+        "province_id": "15",
+        "sort_order": 0,
+        "zip_code": "253000"
+      },
+      {
+        "city_id": "213",
+        "city_id_movie": 218,
+        "city_name": "东莞市",
+        "city_name_en": "Dong _Shi ",
+        "city_name_movie": "东莞",
+        "is_hot": "0",
+        "province_id": "19",
+        "sort_order": 0,
+        "zip_code": "511700"
+      }
+    ],
+    "f": [
+      {
+        "city_id": "115",
+        "city_id_movie": 124,
+        "city_name": "福州市",
+        "city_name_en": "Fu Zhou Shi ",
+        "city_name_movie": "福州",
+        "is_hot": "0",
+        "province_id": "13",
+        "sort_order": 0,
+        "zip_code": "350000"
+      },
+      {
+        "city_id": "202",
+        "city_id_movie": 227,
+        "city_name": "佛山市",
+        "city_name_en": "Fo Shan Shi ",
+        "city_name_movie": "佛山",
+        "is_hot": "0",
+        "province_id": "19",
+        "sort_order": 0,
+        "zip_code": "528000"
+      }
+    ],
+    "g": [
+      {
+        "city_id": "197",
+        "city_id_movie": 210,
+        "city_name": "广州市",
+        "city_name_en": "Guang Zhou Shi ",
+        "city_name_movie": "广州",
+        "is_hot": "1",
+        "province_id": "19",
+        "sort_order": "7",
+        "zip_code": "510000"
+      },
+      {
+        "city_id": "256",
+        "city_id_movie": 288,
+        "city_name": "贵阳市",
+        "city_name_en": "Gui Yang Shi ",
+        "city_name_movie": "贵阳",
+        "is_hot": "0",
+        "province_id": "24",
+        "sort_order": 0,
+        "zip_code": "55000"
+      }
+    ],
+    "h": [
+      {
+        "city_id": "6",
+        "city_id_movie": 17,
+        "city_name": "邯郸市",
+        "city_name_en": "Han Dan Shi ",
+        "city_name_movie": "邯郸",
+        "is_hot": "0",
+        "province_id": "3",
+        "sort_order": 0,
+        "zip_code": "056000"
+      },
+      {
+        "city_id": "25",
+        "city_id_movie": 34,
+        "city_name": "呼和浩特市",
+        "city_name_en": "Hu He Hao Te Shi ",
+        "city_name_movie": "呼和浩特",
+        "is_hot": "0",
+        "province_id": "5",
+        "sort_order": 0,
+        "zip_code": "010000"
+      },
+      {
+        "city_id": "60",
+        "city_id_movie": 69,
+        "city_name": "哈尔滨市",
+        "city_name_en": "Ha Er Bin Shi ",
+        "city_name_movie": "哈尔滨",
+        "is_hot": "0",
+        "province_id": "8",
+        "sort_order": 0,
+        "zip_code": "150000"
+      },
+      {
+        "city_id": "81",
+        "city_id_movie": 94,
+        "city_name": "淮安市",
+        "city_name_en": "Huai An Shi ",
+        "city_name_movie": "淮安",
+        "is_hot": "0",
+        "province_id": "10",
+        "sort_order": 0,
+        "zip_code": "223200"
+      },
+      {
+        "city_id": "87",
+        "city_id_movie": 96,
+        "city_name": "杭州市",
+        "city_name_en": "Hang Zhou Shi ",
+        "city_name_movie": "杭州",
+        "is_hot": "0",
+        "province_id": "11",
+        "sort_order": 0,
+        "zip_code": "310000"
+      },
+      {
+        "city_id": "91",
+        "city_id_movie": 102,
+        "city_name": "湖州市",
+        "city_name_en": "Hu Zhou Shi ",
+        "city_name_movie": "湖州",
+        "is_hot": "0",
+        "province_id": "11",
+        "sort_order": 0,
+        "zip_code": "313000"
+      },
+      {
+        "city_id": "98",
+        "city_id_movie": 107,
+        "city_name": "合肥市",
+        "city_name_en": "He Fei Shi ",
+        "city_name_movie": "合肥",
+        "is_hot": "0",
+        "province_id": "12",
+        "sort_order": 0,
+        "zip_code": "230000"
+      },
+      {
+        "city_id": "103",
+        "city_id_movie": 121,
+        "city_name": "淮北市",
+        "city_name_en": "Huai Bei Shi ",
+        "city_name_movie": "淮北",
+        "is_hot": "0",
+        "province_id": "12",
+        "sort_order": 0,
+        "zip_code": "235000"
+      },
+      {
+        "city_id": "178",
+        "city_id_movie": 181,
+        "city_name": "黄冈市",
+        "city_name_en": "Huang Gang Shi ",
+        "city_name_movie": "黄冈",
+        "is_hot": "0",
+        "province_id": "17",
+        "sort_order": 0,
+        "zip_code": "438000"
+      },
+      {
+        "city_id": "207",
+        "city_id_movie": 212,
+        "city_name": "惠州市",
+        "city_name_en": "Hui Zhou Shi ",
+        "city_name_movie": "惠州",
+        "is_hot": "0",
+        "province_id": "19",
+        "sort_order": 0,
+        "zip_code": "516000"
+      },
+      {
+        "city_id": "210",
+        "city_id_movie": 215,
+        "city_name": "河源市",
+        "city_name_en": "He Yuan Shi ",
+        "city_name_movie": "河源",
+        "is_hot": "0",
+        "province_id": "19",
+        "sort_order": 0,
+        "zip_code": "517000"
+      },
+      {
+        "city_id": "232",
+        "city_id_movie": 245,
+        "city_name": "海口市",
+        "city_name_en": "Hai Kou Shi ",
+        "city_name_movie": "海口",
+        "is_hot": "0",
+        "province_id": "21",
+        "sort_order": 0,
+        "zip_code": "570000"
+      }
+    ],
+    "j": [
+      {
+        "city_id": "20",
+        "city_id_movie": 31,
+        "city_name": "晋中市",
+        "city_name_en": "Jin Zhong Shi ",
+        "city_name_movie": "晋中",
+        "is_hot": "0",
+        "province_id": "4",
+        "sort_order": 0,
+        "zip_code": "030600"
+      },
+      {
+        "city_id": "43",
+        "city_id_movie": 57,
+        "city_name": "锦州市",
+        "city_name_en": "Jin Zhou Shi ",
+        "city_name_movie": "锦州",
+        "is_hot": "0",
+        "province_id": "6",
+        "sort_order": 0,
+        "zip_code": "121000"
+      },
+      {
+        "city_id": "52",
+        "city_id_movie": 61,
+        "city_name": "吉林市",
+        "city_name_en": "Ji Lin Shi ",
+        "city_name_movie": "吉林",
+        "is_hot": "0",
+        "province_id": "7",
+        "sort_order": 0,
+        "zip_code": "132000"
+      },
+      {
+        "city_id": "127",
+        "city_id_movie": 138,
+        "city_name": "九江市",
+        "city_name_en": "Jiu Jiang Shi ",
+        "city_name_movie": "九江",
+        "is_hot": "0",
+        "province_id": "14",
+        "sort_order": 0,
+        "zip_code": "332000"
+      },
+      {
+        "city_id": "131",
+        "city_id_movie": 142,
+        "city_name": "吉安市",
+        "city_name_en": "Ji An Shi ",
+        "city_name_movie": "吉安",
+        "is_hot": "0",
+        "province_id": "14",
+        "sort_order": 0,
+        "zip_code": "343000"
+      },
+      {
+        "city_id": "135",
+        "city_id_movie": 144,
+        "city_name": "济南市",
+        "city_name_en": "Ji Nan Shi ",
+        "city_name_movie": "济南",
+        "is_hot": "0",
+        "province_id": "15",
+        "sort_order": 0,
+        "zip_code": "250000"
+      },
+      {
+        "city_id": "142",
+        "city_id_movie": 159,
+        "city_name": "济宁市",
+        "city_name_en": "Ji Ning Shi ",
+        "city_name_movie": "济宁",
+        "is_hot": "0",
+        "province_id": "15",
+        "sort_order": 0,
+        "zip_code": "272100"
+      },
+      {
+        "city_id": "159",
+        "city_id_movie": 177,
+        "city_name": "焦作市",
+        "city_name_en": "Jiao Zuo Shi ",
+        "city_name_movie": "焦作",
+        "is_hot": "0",
+        "province_id": "16",
+        "sort_order": 0,
+        "zip_code": "454100"
+      },
+      {
+        "city_id": "203",
+        "city_id_movie": 228,
+        "city_name": "江门市",
+        "city_name_en": "Jiang Men Shi ",
+        "city_name_movie": "江门",
+        "is_hot": "0",
+        "province_id": "19",
+        "sort_order": 0,
+        "zip_code": "529000"
+      }
+    ],
+    "k": [
+      {
+        "city_id": "265",
+        "city_id_movie": 297,
+        "city_name": "昆明市",
+        "city_name_en": "Kun Ming Shi ",
+        "city_name_movie": "昆明",
+        "is_hot": "0",
+        "province_id": "25",
+        "sort_order": 0,
+        "zip_code": "650000"
+      }
+    ],
+    "l": [
+      {
+        "city_id": "12",
+        "city_id_movie": 13,
+        "city_name": "廊坊市",
+        "city_name_en": "Lang Fang Shi ",
+        "city_name_movie": "廊坊",
+        "is_hot": "0",
+        "province_id": "3",
+        "sort_order": 0,
+        "zip_code": "065000"
+      },
+      {
+        "city_id": "23",
+        "city_id_movie": 24,
+        "city_name": "临汾市",
+        "city_name_en": "Lin Fen Shi ",
+        "city_name_movie": "临汾",
+        "is_hot": "0",
+        "province_id": "4",
+        "sort_order": 0,
+        "zip_code": "041000"
+      },
+      {
+        "city_id": "80",
+        "city_id_movie": 93,
+        "city_name": "连云港市",
+        "city_name_en": "Lian Yun Gang Shi ",
+        "city_name_movie": "连云港",
+        "is_hot": "0",
+        "province_id": "10",
+        "sort_order": 0,
+        "zip_code": "222000"
+      },
+      {
+        "city_id": "97",
+        "city_id_movie": 98,
+        "city_name": "丽水市",
+        "city_name_en": "Li Shui Shi ",
+        "city_name_movie": "丽水",
+        "is_hot": "0",
+        "province_id": "11",
+        "sort_order": 0,
+        "zip_code": "323000"
+      },
+      {
+        "city_id": "154",
+        "city_id_movie": 172,
+        "city_name": "洛阳市",
+        "city_name_en": "Luo Yang Shi ",
+        "city_name_movie": "洛阳",
+        "is_hot": "0",
+        "province_id": "16",
+        "sort_order": 0,
+        "zip_code": "471000"
+      },
+      {
+        "city_id": "281",
+        "city_id_movie": 313,
+        "city_name": "拉萨市",
+        "city_name_en": "La Sa Shi ",
+        "city_name_movie": "拉萨",
+        "is_hot": "0",
+        "province_id": "26",
+        "sort_order": 0,
+        "zip_code": "850000"
+      },
+      {
+        "city_id": "298",
+        "city_id_movie": 330,
+        "city_name": "兰州市",
+        "city_name_en": "Lan Zhou Shi ",
+        "city_name_movie": "兰州",
+        "is_hot": "0",
+        "province_id": "28",
+        "sort_order": 0,
+        "zip_code": "730000"
+      },
+      {
+        "city_id": "309",
+        "city_id_movie": 333,
+        "city_name": "陇南市",
+        "city_name_en": "Long Nan Shi ",
+        "city_name_movie": "陇南",
+        "is_hot": "0",
+        "province_id": "28",
+        "sort_order": 0,
+        "zip_code": "742100"
+      }
+    ],
+    "m": [
+      {
+        "city_id": "102",
+        "city_id_movie": 120,
+        "city_name": "马鞍山市",
+        "city_name_en": "Ma An Shan Shi ",
+        "city_name_movie": "马鞍山",
+        "is_hot": "0",
+        "province_id": "12",
+        "sort_order": 0,
+        "zip_code": "243000"
+      }
+    ],
+    "n": [
+      {
+        "city_id": "74",
+        "city_id_movie": 83,
+        "city_name": "南京市",
+        "city_name_en": "Nan Jing Shi ",
+        "city_name_movie": "南京",
+        "is_hot": "1",
+        "province_id": "10",
+        "sort_order": "10",
+        "zip_code": "210000"
+      },
+      {
+        "city_id": "88",
+        "city_id_movie": 99,
+        "city_name": "宁波市",
+        "city_name_en": "Ning Bo Shi ",
+        "city_name_movie": "宁波",
+        "is_hot": "0",
+        "province_id": "11",
+        "sort_order": 0,
+        "zip_code": "315000"
+      },
+      {
+        "city_id": "124",
+        "city_id_movie": 133,
+        "city_name": "南昌市",
+        "city_name_en": "Nan Chang Shi ",
+        "city_name_movie": "南昌",
+        "is_hot": "0",
+        "province_id": "14",
+        "sort_order": 0,
+        "zip_code": "330000"
+      },
+      {
+        "city_id": "218",
+        "city_id_movie": 231,
+        "city_name": "南宁市",
+        "city_name_en": "Nan Ning Shi ",
+        "city_name_movie": "南宁",
+        "is_hot": "0",
+        "province_id": "20",
+        "sort_order": 0,
+        "zip_code": "530000"
+      }
+    ],
+    "p": [
+      {
+        "city_id": "47",
+        "city_id_movie": 48,
+        "city_name": "盘锦市",
+        "city_name_en": "Pan Jin Shi ",
+        "city_name_movie": "盘锦",
+        "is_hot": "0",
+        "province_id": "6",
+        "sort_order": 0,
+        "zip_code": "124000"
+      },
+      {
+        "city_id": "126",
+        "city_id_movie": 137,
+        "city_name": "萍乡市",
+        "city_name_en": "Ping Xiang Shi ",
+        "city_name_movie": "萍乡",
+        "is_hot": "0",
+        "province_id": "14",
+        "sort_order": 0,
+        "zip_code": "337000"
+      },
+      {
+        "city_id": "155",
+        "city_id_movie": 173,
+        "city_name": "平顶山市",
+        "city_name_en": "Ping Ding Shan Shi ",
+        "city_name_movie": "平顶山",
+        "is_hot": "0",
+        "province_id": "16",
+        "sort_order": 0,
+        "zip_code": "467000"
+      }
+    ],
+    "q": [
+      {
+        "city_id": "119",
+        "city_id_movie": 128,
+        "city_name": "泉州市",
+        "city_name_en": "Quan Zhou Shi ",
+        "city_name_movie": "泉州",
+        "is_hot": "0",
+        "province_id": "13",
+        "sort_order": 0,
+        "zip_code": "362000"
+      },
+      {
+        "city_id": "136",
+        "city_id_movie": 153,
+        "city_name": "青岛市",
+        "city_name_en": "Qing Dao Shi ",
+        "city_name_movie": "青岛",
+        "is_hot": "1",
+        "province_id": "15",
+        "sort_order": "6",
+        "zip_code": "266000"
+      },
+      {
+        "city_id": "263",
+        "city_id_movie": 293,
+        "city_name": "黔东南",
+        "city_name_en": "Qian Dong Nan ",
+        "city_name_movie": "黔东南",
+        "is_hot": "0",
+        "province_id": "24",
+        "sort_order": 0,
+        "zip_code": "551500"
+      }
+    ],
+    "s": [
+      {
+        "city_id": "3",
+        "city_id_movie": 12,
+        "city_name": "石家庄市",
+        "city_name_en": "Shi Jia Zhuang Shi ",
+        "city_name_movie": "石家庄",
+        "is_hot": "0",
+        "province_id": "3",
+        "sort_order": 0,
+        "zip_code": "050000"
+      },
+      {
+        "city_id": "37",
+        "city_id_movie": 46,
+        "city_name": "沈阳市",
+        "city_name_en": "Shen Yang Shi ",
+        "city_name_movie": "沈阳",
+        "is_hot": "0",
+        "province_id": "6",
+        "sort_order": 0,
+        "zip_code": "110000"
+      },
+      {
+        "city_id": "73",
+        "city_id_movie": 82,
+        "city_name": "上海市",
+        "city_name_en": "Shang Hai Shi ",
+        "city_name_movie": "上海",
+        "is_hot": "1",
+        "province_id": "9",
+        "sort_order": "3",
+        "zip_code": "200000"
+      },
+      {
+        "city_id": "78",
+        "city_id_movie": 91,
+        "city_name": "苏州市",
+        "city_name_en": "Su Zhou Shi ",
+        "city_name_movie": "苏州",
+        "is_hot": "0",
+        "province_id": "10",
+        "sort_order": 0,
+        "zip_code": "215000"
+      },
+      {
+        "city_id": "86",
+        "city_id_movie": 87,
+        "city_name": "宿迁市",
+        "city_name_en": "Su Qian Shi ",
+        "city_name_movie": "宿迁",
+        "is_hot": "0",
+        "province_id": "10",
+        "sort_order": 0,
+        "zip_code": "223800"
+      },
+      {
+        "city_id": "134",
+        "city_id_movie": 135,
+        "city_name": "上饶市",
+        "city_name_en": "Shang Rao Shi ",
+        "city_name_movie": "上饶",
+        "is_hot": "0",
+        "province_id": "14",
+        "sort_order": 0,
+        "zip_code": "334000"
+      },
+      {
+        "city_id": "171",
+        "city_id_movie": 186,
+        "city_name": "十堰市",
+        "city_name_en": "Shi Yan Shi ",
+        "city_name_movie": "十堰",
+        "is_hot": "0",
+        "province_id": "17",
+        "sort_order": 0,
+        "zip_code": "442000"
+      },
+      {
+        "city_id": "199",
+        "city_id_movie": 221,
+        "city_name": "深圳市",
+        "city_name_en": "Shen _Shi ",
+        "city_name_movie": "深圳",
+        "is_hot": "1",
+        "province_id": "19",
+        "sort_order": "8",
+        "zip_code": "518000"
+      }
+    ],
+    "t": [
+      {
+        "city_id": "2",
+        "city_id_movie": 11,
+        "city_name": "天津市",
+        "city_name_en": "Tian Jin Shi ",
+        "city_name_movie": "天津",
+        "is_hot": "1",
+        "province_id": "2",
+        "sort_order": "2",
+        "zip_code": "100000"
+      },
+      {
+        "city_id": "4",
+        "city_id_movie": 15,
+        "city_name": "唐山市",
+        "city_name_en": "Tang Shan Shi ",
+        "city_name_movie": "唐山",
+        "is_hot": "0",
+        "province_id": "3",
+        "sort_order": 0,
+        "zip_code": "063000"
+      },
+      {
+        "city_id": "14",
+        "city_id_movie": 23,
+        "city_name": "太原市",
+        "city_name_en": "Tai Yuan Shi ",
+        "city_name_movie": "太原",
+        "is_hot": "0",
+        "province_id": "4",
+        "sort_order": 0,
+        "zip_code": "030000"
+      },
+      {
+        "city_id": "96",
+        "city_id_movie": 97,
+        "city_name": "台州市",
+        "city_name_en": "Tai Zhou Shi ",
+        "city_name_movie": "台州",
+        "is_hot": "0",
+        "province_id": "11",
+        "sort_order": 0,
+        "zip_code": "318000"
+      },
+      {
+        "city_id": "302",
+        "city_id_movie": 339,
+        "city_name": "天水市",
+        "city_name_en": "Tian Shui Shi ",
+        "city_name_movie": "天水",
+        "is_hot": "0",
+        "province_id": "28",
+        "sort_order": 0,
+        "zip_code": "741000"
+      }
+    ],
+    "w": [
+      {
+        "city_id": "33",
+        "city_id_movie": 45,
+        "city_name": "乌兰察布市",
+        "city_name_en": "Wu Lan Cha Bu Shi ",
+        "city_name_movie": "乌兰察布",
+        "is_hot": "0",
+        "province_id": "5",
+        "sort_order": 0,
+        "zip_code": "011800"
+      },
+      {
+        "city_id": "75",
+        "city_id_movie": 88,
+        "city_name": "无锡市",
+        "city_name_en": "Wu Xi Shi ",
+        "city_name_movie": "无锡",
+        "is_hot": "0",
+        "province_id": "10",
+        "sort_order": 0,
+        "zip_code": "214000"
+      },
+      {
+        "city_id": "99",
+        "city_id_movie": 117,
+        "city_name": "芜湖市",
+        "city_name_en": "Wu Hu Shi ",
+        "city_name_movie": "芜湖",
+        "is_hot": "0",
+        "province_id": "12",
+        "sort_order": 0,
+        "zip_code": "241000"
+      },
+      {
+        "city_id": "141",
+        "city_id_movie": 158,
+        "city_name": "潍坊市",
+        "city_name_en": "Wei Fang Shi ",
+        "city_name_movie": "潍坊",
+        "is_hot": "0",
+        "province_id": "15",
+        "sort_order": 0,
+        "zip_code": "261000"
+      },
+      {
+        "city_id": "144",
+        "city_id_movie": 145,
+        "city_name": "威海市",
+        "city_name_en": "Wei Hai Shi ",
+        "city_name_movie": "威海",
+        "is_hot": "0",
+        "province_id": "15",
+        "sort_order": 0,
+        "zip_code": "265700"
+      },
+      {
+        "city_id": "169",
+        "city_id_movie": 179,
+        "city_name": "武汉市",
+        "city_name_en": "Wu Han Shi ",
+        "city_name_movie": "武汉",
+        "is_hot": "1",
+        "province_id": "17",
+        "sort_order": "5",
+        "zip_code": "430000"
+      },
+      {
+        "city_id": "322",
+        "city_id_movie": 354,
+        "city_name": "吴忠市",
+        "city_name_en": "Wu Zhong Shi ",
+        "city_name_movie": "吴忠",
+        "is_hot": "0",
+        "province_id": "30",
+        "sort_order": 0,
+        "zip_code": "751100"
+      },
+      {
+        "city_id": "325",
+        "city_id_movie": 357,
+        "city_name": "乌鲁木齐市",
+        "city_name_en": "Wu Lu Mu Qi Shi ",
+        "city_name_movie": "乌鲁木齐",
+        "is_hot": "0",
+        "province_id": "31",
+        "sort_order": 0,
+        "zip_code": "830000"
+      }
+    ],
+    "x": [
+      {
+        "city_id": "116",
+        "city_id_movie": 125,
+        "city_name": "厦门市",
+        "city_name_en": "Xia Men Shi ",
+        "city_name_movie": "厦门",
+        "is_hot": "0",
+        "province_id": "13",
+        "sort_order": 0,
+        "zip_code": "361000"
+      },
+      {
+        "city_id": "288",
+        "city_id_movie": 320,
+        "city_name": "西安市",
+        "city_name_en": "Xi An Shi ",
+        "city_name_movie": "西安",
+        "is_hot": "1",
+        "province_id": "27",
+        "sort_order": "9",
+        "zip_code": "710000"
+      }
+    ],
+    "y": [
+      {
+        "city_id": "44",
+        "city_id_movie": 58,
+        "city_name": "营口市",
+        "city_name_en": "Ying Kou Shi ",
+        "city_name_movie": "营口",
+        "is_hot": "0",
+        "province_id": "6",
+        "sort_order": 0,
+        "zip_code": "115000"
+      },
+      {
+        "city_id": "82",
+        "city_id_movie": 95,
+        "city_name": "盐城市",
+        "city_name_en": "Yan Cheng Shi ",
+        "city_name_movie": "盐城",
+        "is_hot": "0",
+        "province_id": "10",
+        "sort_order": 0,
+        "zip_code": "224000"
+      },
+      {
+        "city_id": "132",
+        "city_id_movie": 143,
+        "city_name": "宜春市",
+        "city_name_en": "Yi Chun Shi ",
+        "city_name_movie": "宜春",
+        "is_hot": "0",
+        "province_id": "14",
+        "sort_order": 0,
+        "zip_code": "336000"
+      },
+      {
+        "city_id": "140",
+        "city_id_movie": 157,
+        "city_name": "烟台市",
+        "city_name_en": "Yan Tai Shi ",
+        "city_name_movie": "烟台",
+        "is_hot": "0",
+        "province_id": "15",
+        "sort_order": 0,
+        "zip_code": "264000"
+      },
+      {
+        "city_id": "172",
+        "city_id_movie": 187,
+        "city_name": "宜昌市",
+        "city_name_en": "Yi Chang Shi ",
+        "city_name_movie": "宜昌",
+        "is_hot": "0",
+        "province_id": "17",
+        "sort_order": 0,
+        "zip_code": "443000"
+      },
+      {
+        "city_id": "188",
+        "city_id_movie": 206,
+        "city_name": "岳阳市",
+        "city_name_en": "Yue Yang Shi ",
+        "city_name_movie": "岳阳",
+        "is_hot": "0",
+        "province_id": "18",
+        "sort_order": 0,
+        "zip_code": "414000"
+      },
+      {
+        "city_id": "320",
+        "city_id_movie": 352,
+        "city_name": "银川市",
+        "city_name_en": "Yin Chuan Shi ",
+        "city_name_movie": "银川",
+        "is_hot": "0",
+        "province_id": "30",
+        "sort_order": 0,
+        "zip_code": "750000"
+      }
+    ],
+    "z": [
+      {
+        "city_id": "9",
+        "city_id_movie": 20,
+        "city_name": "张家口市",
+        "city_name_en": "Zhang Jia Kou Shi ",
+        "city_name_movie": "张家口",
+        "is_hot": "0",
+        "province_id": "3",
+        "sort_order": 0,
+        "zip_code": "075000"
+      },
+      {
+        "city_id": "152",
+        "city_id_movie": 161,
+        "city_name": "郑州市",
+        "city_name_en": "Zheng Zhou Shi ",
+        "city_name_movie": "郑州",
+        "is_hot": "0",
+        "province_id": "16",
+        "sort_order": 0,
+        "zip_code": "450000"
+      },
+      {
+        "city_id": "184",
+        "city_id_movie": 201,
+        "city_name": "株洲市",
+        "city_name_en": "Zhu Zhou Shi ",
+        "city_name_movie": "株洲",
+        "is_hot": "0",
+        "province_id": "18",
+        "sort_order": 0,
+        "zip_code": "412000"
+      },
+      {
+        "city_id": "200",
+        "city_id_movie": 222,
+        "city_name": "珠海市",
+        "city_name_en": "Zhu Hai Shi ",
+        "city_name_movie": "珠海",
+        "is_hot": "0",
+        "province_id": "19",
+        "sort_order": 0,
+        "zip_code": "519000"
+      }
+    ],
+    "~": [
+      {
+        "city_id": "357",
+        "city_id_movie": "357",
+        "city_name": "意大利",
+        "city_name_en": "~",
+        "city_name_movie": "意大利",
+        "is_hot": "0",
+        "province_id": "35",
+        "sort_order": 0,
+        "zip_code": "000000"
+      },
+      {
+        "city_id": "366",
+        "city_id_movie": "366",
+        "city_name": "德国",
+        "city_name_en": "~",
+        "city_name_movie": "德国",
+        "is_hot": "0",
+        "province_id": "35",
+        "sort_order": 0,
+        "zip_code": "000000"
+      }
+    ]
+  },
+  "hot_cities": [
+    {
+      "city_id": "1",
+      "city_id_movie": 10,
+      "city_name": "北京市",
+      "city_name_en": "Bei Jing Shi ",
+      "city_name_movie": "北京",
+      "is_hot": "1",
+      "province_id": "1",
+      "sort_order": "1",
+      "zip_code": "100000"
+    },
+    {
+      "city_id": "2",
+      "city_id_movie": 11,
+      "city_name": "天津市",
+      "city_name_en": "Tian Jin Shi ",
+      "city_name_movie": "天津",
+      "is_hot": "1",
+      "province_id": "2",
+      "sort_order": "2",
+      "zip_code": "100000"
+    },
+    {
+      "city_id": "73",
+      "city_id_movie": 82,
+      "city_name": "上海市",
+      "city_name_en": "Shang Hai Shi ",
+      "city_name_movie": "上海",
+      "is_hot": "1",
+      "province_id": "9",
+      "sort_order": "3",
+      "zip_code": "200000"
+    },
+    {
+      "city_id": "235",
+      "city_id_movie": 267,
+      "city_name": "成都市",
+      "city_name_en": "Cheng Du Shi ",
+      "city_name_movie": "成都",
+      "is_hot": "1",
+      "province_id": "23",
+      "sort_order": "4",
+      "zip_code": "610000"
+    },
+    {
+      "city_id": "169",
+      "city_id_movie": 179,
+      "city_name": "武汉市",
+      "city_name_en": "Wu Han Shi ",
+      "city_name_movie": "武汉",
+      "is_hot": "1",
+      "province_id": "17",
+      "sort_order": "5",
+      "zip_code": "430000"
+    },
+    {
+      "city_id": "136",
+      "city_id_movie": 153,
+      "city_name": "青岛市",
+      "city_name_en": "Qing Dao Shi ",
+      "city_name_movie": "青岛",
+      "is_hot": "1",
+      "province_id": "15",
+      "sort_order": "6",
+      "zip_code": "266000"
+    },
+    {
+      "city_id": "197",
+      "city_id_movie": 210,
+      "city_name": "广州市",
+      "city_name_en": "Guang Zhou Shi ",
+      "city_name_movie": "广州",
+      "is_hot": "1",
+      "province_id": "19",
+      "sort_order": "7",
+      "zip_code": "510000"
+    },
+    {
+      "city_id": "199",
+      "city_id_movie": 221,
+      "city_name": "深圳市",
+      "city_name_en": "Shen _Shi ",
+      "city_name_movie": "深圳",
+      "is_hot": "1",
+      "province_id": "19",
+      "sort_order": "8",
+      "zip_code": "518000"
+    },
+    {
+      "city_id": "288",
+      "city_id_movie": 320,
+      "city_name": "西安市",
+      "city_name_en": "Xi An Shi ",
+      "city_name_movie": "西安",
+      "is_hot": "1",
+      "province_id": "27",
+      "sort_order": "9",
+      "zip_code": "710000"
+    },
+    {
+      "city_id": "74",
+      "city_id_movie": 83,
+      "city_name": "南京市",
+      "city_name_en": "Nan Jing Shi ",
+      "city_name_movie": "南京",
+      "is_hot": "1",
+      "province_id": "10",
+      "sort_order": "10",
+      "zip_code": "210000"
+    },
+    {
+      "city_id": "38",
+      "city_id_movie": 52,
+      "city_name": "大连市",
+      "city_name_en": "Da Lian Shi ",
+      "city_name_movie": "大连",
+      "is_hot": "1",
+      "province_id": "6",
+      "sort_order": "11",
+      "zip_code": "116000"
+    }
+  ]
+}

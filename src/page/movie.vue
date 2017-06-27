@@ -8,6 +8,7 @@
       <mt-button icon="more" slot="right"></mt-button>
     </mt-header>
     <mt-navbar v-model="selected" fixed>
+      <a class="city" href="">北京</a>
       <mt-tab-item id="first">正在上映</mt-tab-item>
       <mt-tab-item id="second">即将上映</mt-tab-item>
     </mt-navbar>
@@ -90,12 +91,22 @@
     },
     method: {},
     mounted: function () {
-      this.axios.get('movie.json', {})
+      this.axios.get('items', {params: {
+        city_name: '上海',
+        page: 1,
+        per_page: 25,
+        return_type: 2
+      }})
         .then(response => {
           this.list = response.data.list
           this.status = response.data.list.status
         })
-      this.axios.get('hot.json', {})
+      this.axios.get('items', {params: {
+        city_name: '上海',
+        page: 2,
+        per_page: 25,
+        return_type: 2
+      }})
         .then(hotdata => {
           this.hot_list = hotdata.data.list
         })

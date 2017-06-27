@@ -1,6 +1,13 @@
 $fontsize:14px;
 $color:red;
 $position-center:center;
+body {
+  color: #666;
+  font: 13px Helvetica,STHeiTi,sans-serif;
+  -webkit-text-size-adjust: 100%!important;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
 .logo{color:black;margin-top: 50px;text-align: center}
 .list{
   line-height: 2;

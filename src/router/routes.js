@@ -5,6 +5,8 @@
 import home from '../page/home'
 import cinema from '../page/cinema'
 import movie from '../page/movie'
+import cityList from '../page/city_list'
+
 export default [
   {
     path: '/home',
@@ -20,5 +22,10 @@ export default [
     path: '/',
     name: 'movie',
     component: movie
+  },
+  {
+    path: '/cityList',
+    name: 'cityList',
+    component: cityList
   }
 ]

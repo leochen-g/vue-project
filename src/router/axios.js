@@ -4,7 +4,7 @@
 import axios from 'axios'
 import qs from 'querystring'
 // 接口地址
-axios.defaults.baseURL = 'http://localhost:8080/static/'
+axios.defaults.baseURL = 'http://b2cwechat.show.wepiao.com/'
 
 // 响应时间
 axios.defaults.timeout = 5000
