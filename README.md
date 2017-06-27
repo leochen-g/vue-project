@@ -1,6 +1,6 @@
-# vue-project
+# 基于VUE的购票客户端，仿娱票儿小程序
 
-> vue demo
+> vue 
 
 ## Build Setup
 
@@ -28,3 +28,6 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 介绍
+使用技术：vue-cli、vue-router、axios
+组件：mint-ui
