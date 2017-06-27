@@ -23,3 +23,5 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 ## 介绍
 使用技术：vue-cli、vue-router、axios
 组件：mint-ui
+
+<img src="http://image.bloggeng.com/gitblog/img.png" style="width:80px;height:100px"/>
