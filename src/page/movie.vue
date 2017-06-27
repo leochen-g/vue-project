@@ -5,10 +5,10 @@
       <router-link to="/" slot="left">
         <mt-button icon="back">返回</mt-button>
       </router-link>
-      <mt-button icon="more" slot="right"></mt-button>
+      <mt-button icon="more" slot="right"></mt-button>s
     </mt-header>
     <mt-navbar v-model="selected" fixed>
-      <a class="city" href="">北京</a>
+      <router-link to="/cityList" class="city">上海</router-link>
       <mt-tab-item id="first">正在上映</mt-tab-item>
       <mt-tab-item id="second">即将上映</mt-tab-item>
     </mt-navbar>
@@ -74,9 +74,6 @@
     </mt-tab-container>
   </div>
 </template>
-<style lang="scss">
-  @import "../style/style.scss";
-</style>
 <script>
   export default{
     name: 'movie',
