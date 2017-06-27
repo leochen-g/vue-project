@@ -1,0 +1,248 @@
+//APP默认颜色
+img {
+  border: 0 none;
+  vertical-align: middle
+}
+.Button {
+  border-radius: 2px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  padding: .6em .5em;
+  font-size: 1.3rem;
+  line-height: .9em;
+  text-align: center;
+  text-decoration: none;
+  background: #29cc6d;
+  border: 1px solid #29cc6d;
+}
+.Label--secondary {
+  -webkit-box-shadow: 0 0 1px #19194d inset;
+  box-shadow: inset 0 0 1px #19194d;
+  color: #7e8bb9;
+}
+
+.Label {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transition: background .1s ease;
+  transition: background .1s ease;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: .5rem .8rem .4rem;
+  border-radius: 2px;
+  font-size: .9rem;
+  line-height: 1.2;
+  margin: 1px 4px 1px 1px;
+  -webkit-box-shadow: 0 0 1px #f7665e inset;
+  box-shadow: inset 0 0 1px #f7665e;
+  background: #fff;
+  color: #f7665e;
+}
+.Concerts__List__Bottom {
+  margin-top: 84px;
+  .Concerts__Item {
+    padding: 0 0 10px 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 0 2px;
+    padding-left: 10px;
+    position: relative;
+    clear: both;
+    .Concerts__Item__img {
+      width: 95px;
+      height: 133px;
+    }
+    .Concerts__Info {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      margin-left: 10px;
+    }
+    .flex-columns {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+    .Concerts__Info__Detail {
+      padding-top: 10px;
+      min-height: 104px;
+      position: relative;
+    }
+    .Concerts__Info__EditorView {
+      margin-right: 15px;
+      margin-top: 19px;
+      font-size: 13px;
+      line-height: 33px;
+      position: relative;
+      color: #ccc;
+    }
+    .Concerts__Info__Name {
+      font-size: 15px;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      color: #262626;
+      text-align: left;
+      line-height: 18px;
+      display: inline-block;
+      min-height: 36px;
+      word-break: break-all;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      position: relative;
+      top: -1px;
+      font-family: PingFangSC-Regular;
+      padding-right: 10px;
+    }
+    .Concerts__Info__ShowTime {
+      display: block;
+      margin: 0;
+      margin-top: 13px;
+      line-height: 13px;
+      font-size: 13px;
+      color: #999;
+    }
+    .Concerts__Info__VenueName {
+      line-height: 13px;
+      font-size: 13px;
+      padding-top: 8px;
+      width: 42vw;
+      margin-bottom: 0;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      color: #999;
+    }
+    .Concerts__Info__ChargeList {
+      padding-top: 13px;
+      display: block;
+    }
+    .Concerts__Info__Charge {
+      padding-right: 8px;
+      font-weight: 400;
+      color: #fd5e5e;
+      max-width: 20%;
+      overflow: hidden;
+    }
+    .Concerts__Info__Charge>span {
+      font-size: 10px;
+      position: relative;
+      top: -1px;
+    }
+    .Concerts__Info__Charge>i {
+      display: inline-block;
+      margin: 0 1px;
+    }
+    .Concerts__Info__Price {
+      font-size: 15px;
+      line-height: 15px;
+      text-align: left;
+      display: inline-block;
+      font-family: PingFangSC-Regular;
+    }
+    .Concerts__Info__Symbol {
+      letter-spacing: 2px;
+    }
+    .Concerts__Info__ChargeList .Button {
+      margin-right: 15px;
+    }
+    .Label {
+      padding: 2px 3px;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      position: relative;
+    }
+    .Concerts__Info__Activity {
+       margin-left: 0;
+       margin-right: 5px;
+     }
+    .Concerts__Info__Activity {
+      margin-left: 8px;
+      position: relative;
+      top: -2px;
+      background: #fd5e5e;
+      border-color: #fd5e5e;
+      color: #fff;
+    }
+
+    .Concerts__Info__Activity:after {
+      content: '';
+      position: absolute;
+      width: 200%;
+      height: 200%;
+      top: 0;
+      left: 0;
+      -webkit-transform: scale(.5);
+      -ms-transform: scale(.5);
+      transform: scale(.5);
+      -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+      transform-origin: 0 0;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      pointer-events: none;
+      border: 1px solid #fd5e5e;
+      border-radius: 3px;
+    }
+    .Concerts__Info__Buy {
+      float: right;
+      background: transparent!important;
+      margin-top: -17px;
+      margin-right: 10px;
+      right: 10px;
+      font-weight: 700;
+      padding: 0;
+      font-size: 12px;
+      line-height: 30px;
+      padding-left: 13px;
+      color: #29cc6d;
+      padding-right: 13px;
+    }
+    .Button--primary-inverse {
+      color: #1b97ff;
+      border: 1px solid #1b97ff;
+      background: transparent;
+    }
+    .Concerts__Info__EditorView {
+      margin-right: 15px;
+      margin-top: 19px;
+      font-size: 13px;
+      line-height: 33px;
+      position: relative;
+      color: #ccc;
+    }
+    .Concerts__Info__EditorView:after {
+      content: "";
+      position: absolute;
+      width: 200%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      -webkit-transform: scale(.5);
+      -ms-transform: scale(.5);
+      transform: scale(.5);
+      -webkit-transform-origin: 0 0 0;
+      -ms-transform-origin: 0 0 0;
+      transform-origin: 0 0 0;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-top: 1px solid #e5e5e5;
+      border-bottom: 1px solid #e5e5e5;
+      height: 66px;
+    }
+    .Concerts__Info__EditorView label {
+      color: #333;
+    }
+  }
+
+}
+
