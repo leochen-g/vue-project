@@ -9,11 +9,6 @@
         </mt-header>
       </div>
 </template>
-<style>
-    body {
-        background-color: #ffffff;
-    }
-</style>
 <script>
   export default{
     name: 'home',
