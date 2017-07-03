@@ -1,4 +1,156 @@
 .cinema_content{
+  .Label {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transition: background .1s ease;
+    transition: background .1s ease;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2px;
+    line-height: 1.2;
+    margin: 1px 4px 1px 1px;
+    -webkit-box-shadow: 0 0 1px #f74c31 inset;
+    box-shadow: inset 0 0 1px #f74c31;
+    background: #fff;
+    color: #f74c31;
+  }
   margin-top: 40px;
   margin-bottom:55px;
+  background: #fff;
+  overflow-y: scroll;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  z-index: 1;
+ .cinema-item .cinema-label-hui>span, .cinemas-wrap .cinema-item .cinema-label-offer>span, .cinemas-wrap .cinema-item .cinema-name, .cinemas-wrap .cinema-item .sched-info p, .cinemas-wrap .poster-list li .poster-name, .cinemas-wrap .sched-list .sched-box .sched-lang {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .cinema-list {
+    border-top: none;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    li{
+      list-style: none;
+      margin-left: 15px;
+      position: relative;
+      border-bottom: .5px solid #eaeaea;
+      padding: 15px 0 3px;
+      .cinema-item {
+        padding-right: 15px;
+        margin-bottom: 8px;
+        .right-info {
+          position: relative;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          width: 72px;
+          text-align: right;
+          line-height: 1;
+          .dis-sale {
+            color: #f74c31;
+            font-size: 1.2rem;
+            margin-bottom: 13px;
+            .grey{
+              color: #999;
+              font-size: 0.8rem;;
+            }
+          }
+          .dis-sale .price {
+
+            font-weight: 400;
+            margin: 0 4px 0 2px;
+          }
+        }
+        .cinema-label-hui, .cinemas-wrap .cinema-item .cinema-label-offer {
+          margin-top: 10px;
+          color: #999;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          -ms-flex-align: center;
+          align-items: center;
+        }
+        .Label.special-hui {
+          color: #fff;
+          background-color: #f74c31;
+          margin-right: 8px;
+          min-width: 17px;
+        }
+        .cinema-name {
+          margin-bottom: 12px;
+          line-height: 1.1;
+          color: #333;
+          font-weight: 400;
+        }
+        .cinema-label {
+          color: #999;
+        }
+        .cinema-address {
+          color: #999;
+          font-size: 0.7rem;
+
+        }
+        .cinema-label-tags .Label--secondary {
+          color: #7c99b0;
+          border: .5px solid #7c99b0;
+        }
+        .cinema-label-tags .Label {
+          margin-top: 8px;
+          font-size: 0.5rem;
+          border-radius: 2px;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          padding: 3.5px 4px 3px;
+        }
+        .left-info {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          overflow: hidden;
+          padding-right: 8px;
+          p {
+            width: 100%;
+          }
+        }
+      }
+      .sched-info {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+      }
+    }
+  }
 }
+
