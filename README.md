@@ -24,7 +24,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 使用技术：vue-cli、vue-router、axios
 组件：mint-ui
 
-<div align=center><img width="250" height="400" src="http://image.bloggeng.com/gitblog/img.png""/></div>
+<div align=center><img width="250" height="400" src="http://image.bloggeng.com/gitblog/img.png"/></div>
 <br/>
 <div align=center><img width="250" height="400" src="http://image.bloggeng.com/gitblog/ying.png""/></div>
 

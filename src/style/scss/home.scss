@@ -1,0 +1,72 @@
+#home{
+  background-color: #f5f5f5;
+  .left{float: left}
+  .right{float: right}
+  .saw{color: grey}
+  .see{color: green}
+  .more{font-size: 17px}
+.home_bg{
+  margin-top: 40px;
+  padding: 0;
+  background-image: url('http://image.bloggeng.com/gitblog/bg.jpg');
+  width: 100%;
+  height: 200px;
+  .user-img{
+    margin: 0 auto;
+    width: 100px;
+    img{
+      margin-top: 40px;
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      border-radius: 180px;
+    }
+    .user_name{
+      text-align: center;
+      padding-top: 10px;
+      color: white;
+    }
+  }
+}
+.home_tips{
+  padding-top: 10px;
+  height: 40px;
+  background-color: white;
+.home_discount{
+  float: left;
+  margin-left:50px;
+}
+.home_red{
+  float: right;
+  margin-right: 50px;
+}
+}
+  .home_main_content{
+    min-height: 300px;
+    .content_list{
+      margin: 10px 10px;
+      .list-item{
+        height: 100px;
+        list-style: none;
+        font-size: 1rem;
+        margin-top: 10px;
+        padding: 10px 25px;
+        background-color: white;
+        .movie-name{
+          font-weight: bold;
+        }
+        .movie-address{
+          margin-top: 20px;
+          margin-bottom: 10px;
+          font-size: 0.9rem;
+        }
+        .movie-see{
+          font-size: 0.9rem;
+        }
+        .movie-time{
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
