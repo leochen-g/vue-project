@@ -51,7 +51,7 @@
     mounted: function () {
       this.axios({
         method: 'get',
-        baseURL: '/api',
+        baseURL: 'https://bird.ioliu.cn/v1?url=http://wx-api.wepiao.com/v2',
         url: '/cinemas/cities/82',
         params: {
           pageNum: 1,
