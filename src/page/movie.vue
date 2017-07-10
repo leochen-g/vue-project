@@ -1,12 +1,6 @@
 <template>
   <!--影院-->
   <div id="movie">
-    <mt-header fixed v-bind:title="title">
-      <router-link to="/" slot="left">
-        <mt-button icon="back">返回</mt-button>
-      </router-link>
-      <mt-button icon="more" slot="right"></mt-button>s
-    </mt-header>
     <mt-navbar v-model="selected" fixed>
       <router-link to="/cityList" class="city">上海</router-link>
       <mt-tab-item id="first">正在上映</mt-tab-item>
@@ -72,6 +66,7 @@
         </div>
       </mt-tab-container-item>
     </mt-tab-container>
+    </mt-popup>
   </div>
 </template>
 <script>
@@ -80,13 +75,13 @@
     components: {},
     data () {
       return {
-        title: '娱票儿-电影票',
         selected: 'first',
         list: '',
         hot_list: ''
       }
     },
-    method: {},
+    methods: {
+    },
     mounted: function () {
       this.axios.get('items', {params: {
         city_name: '上海',
@@ -107,6 +102,6 @@
         .then(hotdata => {
           this.hot_list = hotdata.data.list
         })
-    }
+    },
   }
 </script>

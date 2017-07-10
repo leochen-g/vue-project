@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
+import Vuex from 'vuex'
 import store from './store/store'
 // 引用路由配置文件
 import routes from './router/routes'
@@ -14,6 +15,7 @@ import axios from './router/axios'
 Vue.prototype.axios = axios
 Vue.use(MintUI)
 Vue.use(VueRouter)
+Vue.use(Vuex)
 Vue.config.productionTip = false
 /* eslint-disable no-new */
 // 使用配置文件规则

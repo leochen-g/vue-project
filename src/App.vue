@@ -1,5 +1,12 @@
 <template>
   <div id="app">
+    <mt-header fixed v-bind:title="title">
+      <router-link to="/" slot="left">
+        <mt-button icon="back">返回</mt-button>
+      </router-link>
+      <mt-button icon="more"  @click.native="sheetVisible = true" size="large" slot="right"></mt-button>
+    </mt-header>
+    <mt-actionsheet :actions="actions" v-model="sheetVisible"  cancel-text=""></mt-actionsheet>
     <!--content-->
     <router-view></router-view>
     <mt-tabbar v-model="selected" fixed >
@@ -25,7 +32,10 @@
     components: {},
     data () {
       return {
-        selected: 'movie'
+        selected: 'movie',
+        sheetVisible: false,
+        actions: [],
+        title: '娱票儿-电影票'
       }
     },
     created: function () {
@@ -38,19 +48,48 @@
         if (val === 'movie') {
           localStorage.selected = val
           this.$router.push('/')
+          this.title = '娱票儿-电影票'
         } else if (val === 'cinema') {
           localStorage.selected = val
           this.$router.push('/cinema')
+          this.title = '在线选座影院'
         } else if (val === 'home') {
           localStorage.selected = val
           this.$router.push('/home')
+          this.title = '我的'
         } else {
           localStorage.selected = 'movie'
           this.$router.push('/')
+          this.title = '娱票儿-电影票'
         }
       }
     },
     methods: {
+      about: function() {
+        alert('这是基于VUE的项目')
+      },
+      topView: function () {
+        console.log('this is top')
+      },
+      openAlbum() {
+        console.log('opening album')
+      }
+    },
+    mounted: function () {
+      this.actions = [{
+        name: '转发',
+        method: this.takePhoto
+      }, {
+        name: '显示在俩天顶部',
+        method: this.topView
+      }, {
+        name: '添加到桌面',
+        method: this.openAlbum
+      }, {
+        name: '关于娱票',
+        method: this.about
+      }
+      ]
     }
   }
 </script>

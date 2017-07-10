@@ -1,12 +1,6 @@
 <template>
   <!--影院-->
   <div id="cinema">
-    <mt-header fixed v-bind:title="title">
-      <router-link to="/" slot="left">
-        <mt-button icon="back">返回</mt-button>
-      </router-link>
-      <mt-button icon="more" slot="right"></mt-button>
-    </mt-header>
     <div class="cinema_content">
       <ul class=" cinema-list" >
         <li v-for="item in list">
@@ -44,7 +38,6 @@
     components: {},
     data () {
       return {
-        title: '在线选座影院',
         list: ''
       }
     },
