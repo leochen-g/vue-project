@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <mt-header fixed v-bind:title="title">
-      <router-link to="/" slot="left">
-        <mt-button icon="back">返回</mt-button>
-      </router-link>
+        <mt-button @click="goBack"  icon="back" slot="left">返回</mt-button>
       <mt-button icon="more"  @click.native="sheetVisible = true" size="large" slot="right"></mt-button>
     </mt-header>
     <mt-actionsheet :actions="actions" v-model="sheetVisible"  cancel-text=""></mt-actionsheet>
@@ -73,6 +71,12 @@
       },
       openAlbum() {
         console.log('opening album')
+      },
+      goBack() {
+        this.$router.push('/')
+        localStorage.selected = 'movie'
+        this.title = '娱票儿-电影票'
+        this.$router.go(0)
       }
     },
     mounted: function () {
