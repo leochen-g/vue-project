@@ -1,21 +1,22 @@
 <template>
   <!--城市列表-->
-      <div id="city_list">
-        <mt-header fixed v-bind:title="title" >
-          <router-link to="/" slot="left">
-            <mt-button icon="back">返回</mt-button>
-          </router-link>
-          <mt-button icon="more" slot="right"></mt-button>
-        </mt-header>
+  <div id="city_list">
+    <div class="City">
 
-        <div class="City">
-          <mt-index-list>
-            <mt-index-section v-for="(item,index) in Object.keys(obj)" :key="index" :index="item">
-              <mt-cell v-for="(cell,index) in obj[item]" :key="index" :title="cell.city_name"></mt-cell>
-            </mt-index-section>
-          </mt-index-list>
+      <mt-index-list :height='545' >
+        <div class="mint-searchbar">
+          <div class="mint-searchbar-inner">
+            <i class="mintui mintui-search"></i>
+            <input type="search" placeholder="搜索" class="mint-searchbar-core">
+          </div>
+          <a class="mint-searchbar-cancel" style="display: none;">取消</a>
         </div>
-      </div>
+        <mt-index-section v-for="(item,index) in Object.keys(obj)" :key="index" :index="item">
+          <mt-cell v-for="(cell,index) in obj[item]" :key="index" :title="cell.city_name"></mt-cell>
+        </mt-index-section>
+      </mt-index-list>
+    </div>
+  </div>
 
 </template>
 

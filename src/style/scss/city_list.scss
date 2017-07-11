@@ -1,4 +1,22 @@
+#city_list{
 .City{
   margin-top: 40px;
   margin-bottom: 55px;
+  max-height: 550px;
+  .mint-search {
+    height: 100%;
+    height: 52px;
+    overflow: hidden;
+  }
+  .mint-searchbar{
+    z-index: 0;
+  }
+  .mint-indexlist-content{
+    margin-right: 0;
+    height: 570px;
+  }
+  .mint-indexlist-nav{
+    display: none;
+  }
+}
 }
