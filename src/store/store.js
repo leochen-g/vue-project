@@ -7,12 +7,14 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
   state: {
-    title: ''
+    title: '娱票儿-电影票'
   },
   mutations: {
     new_title (state, msg) {
       state.title = msg
     }
+  },
+  actions: {
   }
 })
 export default store

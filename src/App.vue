@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <mt-header fixed v-bind:title="title">
+    <mt-header fixed v-bind:title="this.$store.state.title">
       <mt-button @click="goBack" icon="back" slot="left">返回</mt-button>
       <mt-button icon="more" @click.native="sheetVisible = true" size="large" slot="right"></mt-button>
     </mt-header>
@@ -35,7 +35,7 @@
         selected: 'movie',
         sheetVisible: false,
         actions: [],
-        title: '娱票儿-电影票'
+        // title: '娱票儿-电影票'
       }
     },
     created: function () {
@@ -48,19 +48,24 @@
         if (val === 'movie') {
           localStorage.selected = val
           this.$router.push('/')
-          this.title = '娱票儿-电影票'
+          this.$store.commit('new_title', '娱票儿-电影票')
+//          this.title = '娱票儿-电影票'
+          // this.title = this.$store.state.title
         } else if (val === 'cinema') {
           localStorage.selected = val
           this.$router.push('/cinema')
-          this.title = '在线选座影院'
+          // this.title = '在线选座影院'
+          this.$store.commit('new_title', '在线选座影院')
         } else if (val === 'home') {
           localStorage.selected = val
           this.$router.push('/home')
-          this.title = '我的'
+         // this.title = '我的'
+          this.$store.commit('new_title', '我的')
         } else {
           localStorage.selected = 'movie'
           this.$router.push('/')
-          this.title = '娱票儿-电影票'
+         // this.title = '娱票儿-电影票'
+          this.$store.commit('new_title', '娱票儿-电影票')
         }
       }
     },
