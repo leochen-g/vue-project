@@ -1,30 +1,32 @@
 <template>
   <div id="app">
     <mt-header fixed v-bind:title="title">
-        <mt-button @click="goBack"  icon="back" slot="left">返回</mt-button>
-      <mt-button icon="more"  @click.native="sheetVisible = true" size="large" slot="right"></mt-button>
+      <mt-button @click="goBack" icon="back" slot="left">返回</mt-button>
+      <mt-button icon="more" @click.native="sheetVisible = true" size="large" slot="right"></mt-button>
     </mt-header>
-    <mt-actionsheet :actions="actions" v-model="sheetVisible"  cancel-text=""></mt-actionsheet>
+    <mt-actionsheet :actions="actions" v-model="sheetVisible" cancel-text=""></mt-actionsheet>
     <!--content-->
+
     <router-view></router-view>
-    <mt-tabbar v-model="selected" fixed >
-      <mt-tab-item id="movie" >
+    <mt-tabbar v-model="selected" fixed>
+      <mt-tab-item id="movie">
         <img slot="icon" src="./assets/movie.png">
         影片
       </mt-tab-item>
-      <mt-tab-item id="cinema" >
+      <mt-tab-item id="cinema">
         <img slot="icon" src="./assets/cinema.png">
         影院
       </mt-tab-item>
-      <mt-tab-item id="home" >
+      <mt-tab-item id="home">
         <img slot="icon" src="./assets/home.png">
         我的
       </mt-tab-item>
     </mt-tabbar>
-    </div>
+  </div>
 </template>
 
 <script>
+
   export default {
     name: 'app',
     components: {},
@@ -63,14 +65,17 @@
       }
     },
     methods: {
-      about: function() {
-        alert('这是基于VUE的项目')
+      about: function () {
+        this.$msgbox('关于', '这是一个高仿娱票小程序的VUE项目')
       },
       topView: function () {
-        console.log('this is top')
+        this.$msgbox('置顶', '暂时还不能置顶呢！')
       },
       openAlbum() {
-        console.log('opening album')
+        this.$msgbox('桌面', '添加桌面还没开始呢！')
+      },
+      send() {
+        this.$msgbox('转发', '你想转到哪呢？')
       },
       goBack() {
         this.$router.push('/')
@@ -82,7 +87,7 @@
     mounted: function () {
       this.actions = [{
         name: '转发',
-        method: this.takePhoto
+        method: this.send
       }, {
         name: '显示在俩天顶部',
         method: this.topView

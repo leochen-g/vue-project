@@ -12,6 +12,11 @@ import 'mint-ui/lib/style.css'
 // 引用axios文件
 import axios from './router/axios'
 // 绑定api方法到全局
+const MsgBox = MintUI.MessageBox
+Vue.prototype.$msgbox = MsgBox
+Vue.prototype.$alert = MsgBox.alert
+Vue.prototype.$confirm = MsgBox.confirm
+Vue.prototype.$prompt = MsgBox.prompt
 Vue.prototype.axios = axios
 Vue.use(MintUI)
 Vue.use(VueRouter)
